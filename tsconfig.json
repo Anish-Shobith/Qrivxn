@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ESnext",
+    "target": "es2019",
+    "moduleResolution": "node",
     "module": "commonjs",
     "outDir": "./dist",
     "rootDir": "./src",
@@ -8,6 +9,11 @@
     "declaration": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@lib": ["lib"],
+      "Qrivxn": ["lib/Structures/index"]
+    }
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist"],
 }
