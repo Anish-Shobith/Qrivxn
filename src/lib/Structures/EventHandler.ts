@@ -1,6 +1,4 @@
-import { Handler, Constructor } from './Base/Handler';
-import { Event } from './Event';
-import { QrivxnClient } from './QrivxnClient';
+import { Event, Constructor, Handler, QrivxnClient } from 'Qrivxn';
 
 export class EventHandler extends Handler<Event> {
 

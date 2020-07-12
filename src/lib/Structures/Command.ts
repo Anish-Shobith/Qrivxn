@@ -1,7 +1,8 @@
 import { Args } from 'lexure';
 import { PermissionString, Message } from 'discord.js';
+
 import { QrivxnFile, QrivxnFileOptions } from './Base/QrivxnFile';
-import { CommandHandler } from './CommandHander';
+import type { CommandHandler } from 'Qrivxn';
 
 interface CommandOptions extends QrivxnFileOptions {
 	aliases?: string[];

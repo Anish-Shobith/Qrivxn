@@ -1,6 +1,4 @@
-import { Handler, Constructor } from './Base/Handler';
-import { Command } from './Command';
-import { QrivxnClient } from './QrivxnClient';
+import { Command, Constructor, Handler, QrivxnClient } from 'Qrivxn';
 
 export class CommandHandler extends Handler<Command> {
 

@@ -1,6 +1,7 @@
 import { Collection } from 'discord.js';
 import klaw from 'klaw';
 import { join, parse } from 'path';
+
 import { QrivxnFile } from './QrivxnFile';
 import { QrivxnClient } from '../QrivxnClient';
 

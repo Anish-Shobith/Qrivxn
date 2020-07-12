@@ -2,7 +2,7 @@ import { QrivxnClient } from './QrivxnClient';
 import { QrivxnFile, QrivxnFileOptions } from './Base/QrivxnFile';
 
 import type { EventEmitter } from 'events';
-import type { EventHandler } from './EventHandler';
+import type { EventHandler } from 'Qrivxn';
 
 interface EventOptions extends QrivxnFileOptions {
 	once?: boolean;
