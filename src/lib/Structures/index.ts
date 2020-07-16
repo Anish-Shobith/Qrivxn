@@ -1,5 +1,5 @@
 import { Command } from './Command';
-import { CommandHandler } from './CommandHander';
+import { CommandHandler } from './CommandHandler';
 import { Event } from './Event';
 import { EventHandler } from './EventHandler';
 import { Handler, Constructor } from './Base/Handler';

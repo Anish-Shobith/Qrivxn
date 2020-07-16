@@ -1,6 +1,6 @@
 import { Client, ClientOptions } from 'discord.js';
 import { dirname } from 'path';
-import { CommandHandler } from './CommandHander';
+import { CommandHandler } from './CommandHandler';
 
 export class QrivxnClient extends Client {
 
