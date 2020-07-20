@@ -13,5 +13,5 @@ export default class BotInfo extends Command {
 	public run(message: Message): void {
 		console.log((message.channel as TextChannel).name);
 	}
-	
+
 }

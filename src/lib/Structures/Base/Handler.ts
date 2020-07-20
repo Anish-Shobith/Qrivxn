@@ -47,5 +47,5 @@ export abstract class Handler<T extends QrivxnFile> extends Collection<string, T
 		super.set(file.name, file);
 		return file;
 	}
-	
+
 }
