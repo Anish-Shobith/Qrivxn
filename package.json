@@ -20,7 +20,7 @@
   "dependencies": {
     "discord.js": "discordjs/discord.js",
     "klaw": "^3.0.0",
-    "lexure": "^0.9.0"
+    "lexure": "^0.17.0"
   },
   "devDependencies": {
     "@types/klaw": "3.0.1",
