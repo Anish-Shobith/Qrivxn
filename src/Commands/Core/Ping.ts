@@ -24,7 +24,7 @@ export default class PingCommand extends Command {
 			.setColor('#ff8f00')
 			.setDescription(`**〽️ Latency to Discord API:** \`${this.client.ws.ping}ms\``);
 
-		return message.util.send(embed);
+		return message.util!.send(embed);
 	}
 
 }
