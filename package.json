@@ -2,7 +2,7 @@
   "name": "qrivxn",
   "version": "1.0.0",
   "description": "A discord bot to meet your requirements",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:Anish-Shobith/Qrivxn.git",
   "author": "Anish Shobith P S <anish.shobith19@gmail.com>",
   "engines": {
@@ -18,9 +18,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "discord.js": "discordjs/discord.js",
-    "klaw": "^3.0.0",
-    "lexure": "^0.17.0"
+    "discord-akairo": "^8.1.0",
+    "discord.js": "discordjs/discord.js"
   },
   "devDependencies": {
     "@types/klaw": "3.0.1",
@@ -29,12 +28,7 @@
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "eslint": "7.9.0",
-    "module-alias": "2.2.2",
     "rimraf": "3.0.2",
     "typescript": "4.0.3"
-  },
-  "_moduleAliases": {
-    "@lib": "dist/lib",
-    "Qrivxn": "dist/lib/Structures/index"
   }
 }

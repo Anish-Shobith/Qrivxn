@@ -10,10 +10,6 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
-    "paths": {
-      "@lib": ["lib"],
-      "Qrivxn": ["lib/Structures/index"]
-    }
   },
   "exclude": ["node_modules", "dist"],
 }

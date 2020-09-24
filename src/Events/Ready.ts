@@ -1,16 +1,18 @@
-import { Event, EventHandler } from 'Qrivxn';
+import { Listener } from 'discord-akairo';
+import { Constants } from 'discord.js';
+export class Ready extends Listener {
 
-export default class Ready extends Event {
-
-	public constructor(handler: EventHandler) {
-		super(handler, {
-			name: 'ready',
-			once: true
+	public constructor() {
+		super(Constants.Events.CLIENT_READY, {
+			emitter: 'client',
+			event: 'ready',
+			category: 'client',
+			type: 'once'
 		});
 	}
 
-	public run(): void {
-		console.log(`${this.client.user?.username} is Ready!`);
+	public exec(): void {
+		console.log(`${this.client.user?.tag} is now online!`);
 	}
 
 }

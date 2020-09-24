@@ -1,8 +1,0 @@
-// Rename config.ts.example file to config.ts and fill in the requirements to work.
-
-import { QrivxnClientOptions } from 'lib/Structures/QrivxnClient';
-
-export const config: QrivxnClientOptions = {
-	prefix: '',
-	token: ''
-};

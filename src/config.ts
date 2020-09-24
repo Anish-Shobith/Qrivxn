@@ -1,6 +1,6 @@
-import { QrivxnClientOptions } from 'lib/Structures/QrivxnClient';
+import { QrivxnClientOptions } from './Structures/QrivxnClient';
 
 export const config: QrivxnClientOptions = {
-	prefix: '',
-	token: ''
+	token: '',
+	ownerID: ['']
 };
