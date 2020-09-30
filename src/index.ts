@@ -1,6 +1,6 @@
 import { QrivxnClient } from './Structures/QrivxnClient';
 import { config } from './config';
 
-new QrivxnClient(config)
-	.start(config.token)
-	.catch(console.error);
+const client = new QrivxnClient({ token: config.token });
+
+client.start().catch(console.error);

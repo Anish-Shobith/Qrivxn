@@ -1,6 +1,6 @@
 import { Listener } from 'discord-akairo';
 import { Constants } from 'discord.js';
-export class Ready extends Listener {
+export default class Ready extends Listener {
 
 	public constructor() {
 		super(Constants.Events.CLIENT_READY, {

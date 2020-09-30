@@ -11,7 +11,7 @@
     "yarn": ">=1.22.0"
   },
   "scripts": {
-    "build": "rimraf ./build && tsc -p .",
+    "build": "rimraf ./dist && tsc -p .",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "start": "yarn lint:fix && yarn build && node dist/index.js"
@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "discord-akairo": "^8.1.0",
-    "discord.js": "discordjs/discord.js"
+    "discord.js": "^12.3.1"
   },
   "devDependencies": {
     "@types/klaw": "3.0.1",
